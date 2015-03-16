@@ -36,6 +36,9 @@ public:
 	void XmlLoadInstrument(IXMLDOMNode * xml);
 	void XmlLoadNote(IXMLDOMNode * xml, std::wstring & instrument);
 private:
+
+	void RunEffects(double *frame, CInstrument *instrument);
+
 	int		m_channels;
 	double	m_sampleRate;
 	double	m_samplePeriod;
