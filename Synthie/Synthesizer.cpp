@@ -7,6 +7,7 @@
 #include "xmlhelp.h"
 #include <vector>
 #include <algorithm>
+#include "OrganInstrument.h"
 
 CSynthesizer::CSynthesizer()
 : m_time(0)
@@ -89,6 +90,11 @@ bool CSynthesizer::Generate(double * frame)
 		{
 			m_wavetablefactory.SetNote(note);
 			instrument = m_wavetablefactory.CreateInstrument();
+		}
+		else if (note->Instrument() == L"Organ")
+		{
+			m_organfactory.SetNote(note);
+			instrument = m_organfactory.CreateInstrument();
 		}
 
 		// Configure the instrument object

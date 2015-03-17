@@ -6,6 +6,7 @@
 #include "Instrument.h"
 #include "WavetableFactory.h"
 #include "Note.h"
+#include "OrganInstrumentFactory.h"
 
 using namespace std;
 
@@ -50,6 +51,8 @@ private:
 	double m_beat;              //!< The current beat within the measure
 	std::list<CInstrument *>  m_instruments;
 	std::vector<CNote> m_notes;
+	COrganInstrumentFactory m_organfactory;
+
 public:
 	void Start();
 	bool Generate(double*);
