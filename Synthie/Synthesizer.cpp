@@ -107,6 +107,8 @@ bool CSynthesizer::Generate(double * frame)
 			instrument = m_pianofactory.CreatePiano();
 		}
 
+		instrument->SetEffectWeights(note);
+
 		// Configure the instrument object
 		if (instrument != NULL)
 		{
@@ -158,6 +160,7 @@ bool CSynthesizer::Generate(double * frame)
 			{
 				frame[c] += instrument->Frame(c);
 			}
+			RunEffects(frame, instrument);
 		}
 		else
 		{
@@ -198,6 +201,15 @@ bool CSynthesizer::Generate(double * frame)
 	// We are done when there is nothing to play.  We'll put something more 
 	// complex here later.
 	return !m_instruments.empty() || m_currentNote < (int)m_notes.size();
+}
+
+void CSynthesizer::RunEffects(double *frame, CInstrument *instrument)
+{
+
+	instrument->m_compress.Process(frame);
+	instrument->m_flange.Process(frame, m_time);
+	instrument->m_chorus.Process(frame, m_time);
+	instrument->m_gate.Process(frame);
 }
 
 

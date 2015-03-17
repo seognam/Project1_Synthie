@@ -131,6 +131,10 @@
     <ClCompile Include="audio\DirSound.cpp" />
     <ClCompile Include="audio\DirSoundSource.cpp" />
     <ClCompile Include="audio\DirSoundStream.cpp" />
+	<ClCompile Include="Chorus.cpp" />
+    <ClCompile Include="Compress.cpp" />
+    <ClCompile Include="Flange.cpp" />
+    <ClCompile Include="Gate.cpp" />
     <ClCompile Include="Drum.cpp" />
     <ClCompile Include="DrumEnvelope.cpp" />
     <ClCompile Include="DrumFactory.cpp" />
@@ -171,6 +175,10 @@
     <ClInclude Include="audio\DirSound.h" />
     <ClInclude Include="audio\DirSoundSource.h" />
     <ClInclude Include="audio\DirSoundStream.h" />
+	<ClInclude Include="Chorus.h" />
+    <ClInclude Include="Compress.h" />
+    <ClInclude Include="Flange.h" />
+    <ClInclude Include="Gate.h" />
     <ClInclude Include="Drum.h" />
     <ClInclude Include="DrumEnvelope.h" />
     <ClInclude Include="DrumFactory.h" />
