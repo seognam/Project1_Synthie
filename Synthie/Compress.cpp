@@ -5,6 +5,9 @@ CCompress::CCompress()
 {
 	m_threshold = 0.001;
 	m_ratio = 2;
+
+	m_wet = 0;
+	m_dry = 1;
 }
 
 

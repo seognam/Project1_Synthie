@@ -10,6 +10,9 @@ CFlange::CFlange()
 	m_queueSize = m_maxDelay * m_sampleRate * 2 + 2;
 	m_queue.resize(m_queueSize + 10);
 	m_wrloc = 0;
+
+	m_wet = 0;
+	m_dry = 1;
 }
 
 CFlange::CFlange(double sampleRate)
@@ -20,6 +23,9 @@ CFlange::CFlange(double sampleRate)
 	m_queueSize = m_maxDelay * m_sampleRate * 2 + 2;
 	m_queue.resize(m_queueSize + 10);
 	m_wrloc = 0;
+
+	m_wet = 0;
+	m_dry = 1;
 }
 
 
@@ -36,7 +42,7 @@ void CFlange::Process(double *frame, double time)
 	int delayed = ((m_maxDelay + m_minDelay) / 2 + sin(0.25 * 2 * 3.14159 * time) * ((m_maxDelay - m_minDelay) / 2)) * m_sampleRate;
 	int rdloc = (m_wrloc + m_queueSize - delayed) % m_queueSize;
 
-	frame[0] = frame[0] / 2 + m_queue[rdloc] / 2;
+	frame[0] = (frame[0] / 2 + m_queue[rdloc] / 2) * m_wet + frame[0] * m_dry;
 	rdloc = (rdloc + 1) % m_queueSize;
-	frame[1] = frame[1] / 2 + m_queue[rdloc] / 2;
+	frame[1] = (frame[1] / 2 + m_queue[rdloc] / 2) * m_wet + frame[1] * m_dry;
 }

@@ -190,27 +190,10 @@ bool CSynthesizer::Generate(double * frame)
 
 void CSynthesizer::RunEffects(double *frame, CInstrument *instrument)
 {
-	// XML will provide list of effects to be applied
-	std::vector<std::wstring> effects = { L"gate", L"flange" }; // Temporary, until XML
-	for (std::vector<std::wstring>::iterator it = effects.begin(); it < effects.end(); it++)
-	{
-		if (*it == L"gate")
-		{
-			instrument->m_gate.Process(frame);
-		}
-		else if (*it == L"compress")
-		{
-			instrument->m_compress.Process(frame);
-		}
-		else if (*it == L"flange")
-		{
-			instrument->m_flange.Process(frame, m_time);
-		}
-		else if (*it == L"chorus")
-		{
-			instrument->m_chorus.Process(frame, m_time);
-		}
-	}
+	instrument->m_gate.Process(frame);
+	instrument->m_compress.Process(frame);
+	instrument->m_flange.Process(frame, m_time);
+	instrument->m_chorus.Process(frame, m_time);
 }
 
 

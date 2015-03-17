@@ -10,6 +10,9 @@ CChorus::CChorus()
 	m_queueSize = int(m_maxDelay * m_sampleRate * 2 + 2);
 	m_queue.resize(m_queueSize + 10);
 	m_wrloc = 0;
+
+	m_wet = 0;
+	m_dry = 1;
 }
 
 CChorus::CChorus(double sampleRate)
@@ -20,6 +23,9 @@ CChorus::CChorus(double sampleRate)
 	m_queueSize = int(m_maxDelay * m_sampleRate * 2 + 2);
 	m_queue.resize(m_queueSize + 10);
 	m_wrloc = 0;
+
+	m_wet = 0;
+	m_dry = 1;
 }
 
 CChorus::~CChorus()
