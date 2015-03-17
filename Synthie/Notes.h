@@ -34,3 +34,19 @@ const Notes notes[] = { { TEXT("A0"), 27.5 }, { TEXT("A#0"), 29.1352 }, { TEXT("
 { TEXT("F#7"), 2959.96 }, { TEXT("Gb7"), 2959.96 }, { TEXT("G7"), 3135.96 }, { TEXT("G#7"), 3322.44 }, { TEXT("Ab7"), 3322.44 },
 { TEXT("A7"), 3520.0 }, { TEXT("A#7"), 3729.31 }, { TEXT("Bb7"), 3729.31 }, { TEXT("B7"), 3951.07 }, { TEXT("C8"), 4186.01 } };
 double NoteToFrequency(const WCHAR *name);
+
+struct DrumNotes
+{
+	const TCHAR *name;
+	int pos;
+};
+
+const DrumNotes drumnotes[] = { { TEXT("B1"), 0 }, { TEXT("B2"), 1 }, { TEXT("B3"), 2 },
+{ TEXT("B4"), 3 }, { TEXT("C1"), 4 }, { TEXT("C2"), 5 }, { TEXT("C3"), 6 },
+{ TEXT("C4"), 7 }, { TEXT("S1"), 8 }, { TEXT("S2"), 9 }, { TEXT("S3"), 10 }, { TEXT("S4"), 11 },
+{ TEXT("A1"), 12 }, { TEXT("A2"), 13 }, { TEXT("A3"), 14 },
+{ TEXT("A4"), 15 }, { TEXT("D1"), 16 }, { TEXT("D2"), 17 }, { TEXT("D3"), 18 },
+{ TEXT("D4"), 19 }
+};
+
+int DrumToVect(const WCHAR *name);

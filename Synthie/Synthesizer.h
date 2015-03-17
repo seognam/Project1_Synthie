@@ -7,6 +7,7 @@
 #include "WavetableFactory.h"
 #include "Note.h"
 #include "OrganInstrumentFactory.h"
+#include "DrumFactory.h"
 
 using namespace std;
 
@@ -52,7 +53,7 @@ private:
 	std::list<CInstrument *>  m_instruments;
 	std::vector<CNote> m_notes;
 	COrganInstrumentFactory m_organfactory;
-
+	CDrumFactory m_druminstfactory;
 public:
 	void Start();
 	bool Generate(double*);

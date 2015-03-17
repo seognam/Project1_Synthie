@@ -20,3 +20,26 @@ double NoteToFrequency(const WCHAR *name)
 		return 0;
 	return f->second;
 }
+
+
+static map<wstring, int> g_namefreq;
+int DrumToVect(const WCHAR *name)
+{
+	if (!g_initialized)
+	{
+		for (int i = 0; i<sizeof(drumnotes) / sizeof(DrumNotes); i++)
+		{
+			g_namefreq[drumnotes[i].name] = drumnotes[i].pos;
+		}
+
+		g_initialized = true;
+	}
+
+	map<wstring, int>::iterator fa = g_namefreq.find(name);
+	if (fa == g_namefreq.end())
+		return 25;
+
+	g_initialized = false;
+	return fa->second;
+
+}

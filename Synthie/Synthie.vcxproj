@@ -131,6 +131,9 @@
     <ClCompile Include="audio\DirSound.cpp" />
     <ClCompile Include="audio\DirSoundSource.cpp" />
     <ClCompile Include="audio\DirSoundStream.cpp" />
+    <ClCompile Include="Drum.cpp" />
+    <ClCompile Include="DrumEnvelope.cpp" />
+    <ClCompile Include="DrumFactory.cpp" />
     <ClCompile Include="Instrument.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="Note.cpp" />
@@ -153,6 +156,7 @@
     <ClCompile Include="audio\WaveformBuffer.cpp" />
     <ClCompile Include="audio\WaveformWnd.cpp" />
     <ClCompile Include="ToneInstrument.cpp" />
+    <ClCompile Include="WavePlayer.cpp" />
     <ClCompile Include="Wavetable.cpp" />
     <ClCompile Include="WavetableFactory.cpp" />
     <ClCompile Include="WavetableInstrument.cpp" />
@@ -163,6 +167,9 @@
     <ClInclude Include="audio\DirSound.h" />
     <ClInclude Include="audio\DirSoundSource.h" />
     <ClInclude Include="audio\DirSoundStream.h" />
+    <ClInclude Include="Drum.h" />
+    <ClInclude Include="DrumEnvelope.h" />
+    <ClInclude Include="DrumFactory.h" />
     <ClInclude Include="Instrument.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="Note.h" />
@@ -184,6 +191,7 @@
     <ClInclude Include="audio\WaveformBuffer.h" />
     <ClInclude Include="audio\WaveformWnd.h" />
     <ClInclude Include="ToneInstrument.h" />
+    <ClInclude Include="WavePlayer.h" />
     <ClInclude Include="Wavetable.h" />
     <ClInclude Include="WavetableFactory.h" />
     <ClInclude Include="WavetableInstrument.h" />
