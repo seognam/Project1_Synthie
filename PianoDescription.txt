@@ -1,0 +1,16 @@
+The piano plays notes that are sampled from a real life piano. It knows how to play the notes based on a score file that is written in the following format. 
+
+Piano Score format:
+
+< note measure="1" beat="1" duration="8" note="PedalD" dynamic ="1.0"/>
+All notes come after <instrument instrument="Piano"> and then indented.
+
+Notes are in format e.g. B6# would be B#, 6th octave. The notes need to be in the correct order so that the program can select the proper file and waveform to play. 
+
+Duration is in beats. Measures and beats work as in Step 5. 
+If the note is a Pedal, like the pedal is pressed up or down. The state of the pedal effects how the other notes decay over time. With the pedal up, the notes decay fairly quickly. With the pedal down, their sound is held until a quick release happens at the end of their duration. 
+The dynamic is on a scale of 0 to 1.0 exclusively. 0 is a purely "soft" note, while 1.0 is a purely "loud" one. Intermediate values play a mixture of the two. For example, a value of 0.4 would be 40% loud and 60% soft. This is an attempt to provide advanced dynamics, as the load and soft notes have slightly different sounds, as in a real piano. 
+
+At the start of a program, the piano reads the notes that it needs to play. During playtime, if a piano instrument is to play at a given beat, the program uses a Piano Factory object to play the note. A Piano Factory makes a new Piano object and sets the note. The note is set based on the score format listed above. When it is set, the proper waveform is loaded from a table. If the note is not found, the appropriate file is opened and the first couple seconds are loaded into wave. That wave is stored in a map associated with that note. The Piano object controls the duration of the note. It uses the Piano Node class to generate while a note is still ongoing. 
+
+A Piano Node class is used to implement effects. A default attack and decay are set. If the pedal is down, the decay is reversed and a new decay is implemented. The pedal object is set in the Piano Factory whenever a Pedal note is played, indicating that the pedal has been pressed or released. Once the Piano classes generate a sound, it is added to the overall sound created by the synthesizer. 
