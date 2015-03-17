@@ -89,7 +89,7 @@ void CToneInstrument::SetNote(CNote *note)
 		{
 			value.ChangeType(VT_R8);
 			// SetDuration(value.dblVal); // play the note for the duration in terms of seconds
-			m_ar.SetDuration(value.dblVal * (60.0 / m_bpm));
+			m_ar.SetDuration(value.dblVal * (120.0 / m_bpm));
 
 		}
 		else if (name == "note")

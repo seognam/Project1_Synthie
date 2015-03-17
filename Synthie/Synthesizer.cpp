@@ -19,6 +19,7 @@ CSynthesizer::CSynthesizer()
 	m_bpm = 120;            
 	m_beatspermeasure = 4;
 	m_secperbeat = 0.5;     
+	m_waveinstfactory.LoadFile("drumriff.wav");
 }
 
 
@@ -95,6 +96,11 @@ bool CSynthesizer::Generate(double * frame)
 		{
 			m_organfactory.SetNote(note);
 			instrument = m_organfactory.CreateInstrument();
+		}
+		else if (note->Instrument() == L"Wave")
+		{
+			m_waveinstfactory.SetNote(note);
+			instrument = m_waveinstfactory.CreateInstrument();
 		}
 
 		// Configure the instrument object

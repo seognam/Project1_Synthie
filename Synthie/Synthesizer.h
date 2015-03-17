@@ -5,6 +5,7 @@
 #include "msxml2.h"
 #include "Instrument.h"
 #include "WavetableFactory.h"
+#include "WaveInstrumentFactory.h"
 #include "Note.h"
 #include "OrganInstrumentFactory.h"
 
@@ -52,6 +53,7 @@ private:
 	std::list<CInstrument *>  m_instruments;
 	std::vector<CNote> m_notes;
 	COrganInstrumentFactory m_organfactory;
+	CWaveInstrumentFactory m_waveinstfactory;
 
 public:
 	void Start();

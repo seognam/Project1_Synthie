@@ -153,6 +153,10 @@
     <ClCompile Include="audio\WaveformBuffer.cpp" />
     <ClCompile Include="audio\WaveformWnd.cpp" />
     <ClCompile Include="ToneInstrument.cpp" />
+    <ClCompile Include="WaveEnvelope.cpp" />
+    <ClCompile Include="WaveInstrument.cpp" />
+    <ClCompile Include="WaveInstrumentFactory.cpp" />
+    <ClCompile Include="WavePlayer.cpp" />
     <ClCompile Include="Wavetable.cpp" />
     <ClCompile Include="WavetableFactory.cpp" />
     <ClCompile Include="WavetableInstrument.cpp" />
@@ -184,6 +188,10 @@
     <ClInclude Include="audio\WaveformBuffer.h" />
     <ClInclude Include="audio\WaveformWnd.h" />
     <ClInclude Include="ToneInstrument.h" />
+    <ClInclude Include="WaveEnvelope.h" />
+    <ClInclude Include="WaveInstrument.h" />
+    <ClInclude Include="WaveInstrumentFactory.h" />
+    <ClInclude Include="WavePlayer.h" />
     <ClInclude Include="Wavetable.h" />
     <ClInclude Include="WavetableFactory.h" />
     <ClInclude Include="WavetableInstrument.h" />
