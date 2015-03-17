@@ -4,8 +4,8 @@
 CGate::CGate()
 {
 	m_passingSound = false;
-	m_upperClip = 0.01;
-	m_lowerClip = 0.008;
+	m_upperClip = 0.005;
+	m_lowerClip = 0.003;
 
 	m_wet = 0;
 	m_dry = 1;

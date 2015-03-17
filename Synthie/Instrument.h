@@ -14,6 +14,7 @@ public:
 	CInstrument(double);
 	virtual ~CInstrument();
 	virtual void SetNote(CNote *note) = 0;
+	void SetEffectWeights(CNote *note);
 
 	CGate   m_gate;             //!< The Noise Gating effect
 	CCompress m_compress;       //!< The Compression / Limiting effect

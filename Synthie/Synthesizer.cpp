@@ -93,6 +93,7 @@ bool CSynthesizer::Generate(double * frame)
 
 		}
 		
+		instrument->SetEffectWeights(note);
 
 		// Configure the instrument object
 		if (instrument != NULL)
@@ -190,10 +191,11 @@ bool CSynthesizer::Generate(double * frame)
 
 void CSynthesizer::RunEffects(double *frame, CInstrument *instrument)
 {
-	instrument->m_gate.Process(frame);
+	
 	instrument->m_compress.Process(frame);
 	instrument->m_flange.Process(frame, m_time);
 	instrument->m_chorus.Process(frame, m_time);
+	instrument->m_gate.Process(frame);
 }
 
 

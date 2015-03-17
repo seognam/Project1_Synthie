@@ -27,7 +27,7 @@ void CCompress::Process(double *frame)
 		}
 		else
 		{
-			frame[c] = ((frame[c] - m_threshold) / m_ratio) + m_threshold;
+			frame[c] = (((frame[c] - m_threshold) / m_ratio) + m_threshold) * m_wet + frame[c] * m_dry;
 		}
 	}
 }
