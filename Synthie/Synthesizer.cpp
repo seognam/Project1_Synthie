@@ -8,6 +8,7 @@
 #include <vector>
 #include <algorithm>
 #include "OrganInstrument.h"
+#include "PianoNotes.h"
 
 CSynthesizer::CSynthesizer()
 : m_time(0)
@@ -100,6 +101,10 @@ bool CSynthesizer::Generate(double * frame)
 		{
 			m_druminstfactory.SetNote(note);
 			instrument = m_druminstfactory.CreateInstrument();
+		}
+		else if (note->Instrument() == L"Piano"){
+			m_pianofactory.SetNote(note);
+			instrument = m_pianofactory.CreatePiano();
 		}
 
 		// Configure the instrument object

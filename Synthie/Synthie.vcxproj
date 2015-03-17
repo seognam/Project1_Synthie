@@ -142,6 +142,10 @@
     <ClCompile Include="OrganInstrument.cpp" />
     <ClCompile Include="OrganInstrumentFactory.cpp" />
     <ClCompile Include="OrganWave.cpp" />
+    <ClCompile Include="Piano.cpp" />
+    <ClCompile Include="PianoFactory.cpp" />
+    <ClCompile Include="PianoNode.cpp" />
+    <ClCompile Include="PianoNotes.cpp" />
     <ClCompile Include="Progress.cpp" />
     <ClCompile Include="ProgressDlg.cpp" />
     <ClCompile Include="SineWave.cpp" />
@@ -178,6 +182,10 @@
     <ClInclude Include="OrganInstrument.h" />
     <ClInclude Include="OrganInstrumentFactory.h" />
     <ClInclude Include="OrganWave.h" />
+    <ClInclude Include="Piano.h" />
+    <ClInclude Include="PianoFactory.h" />
+    <ClInclude Include="PianoNode.h" />
+    <ClInclude Include="PianoNotes.h" />
     <ClInclude Include="Progress.h" />
     <ClInclude Include="ProgressDlg.h" />
     <ClInclude Include="Resource.h" />

@@ -8,6 +8,7 @@
 #include "Note.h"
 #include "OrganInstrumentFactory.h"
 #include "DrumFactory.h"
+#include "PianoFactory.h"
 
 using namespace std;
 
@@ -60,6 +61,8 @@ public:
 private:
 	double m_time;
 	CWavetableFactory m_wavetablefactory;
+
+	CPianoFactory m_pianofactory;
 public:
 	// Get the time since we started generating audio
 	double GetTime();
