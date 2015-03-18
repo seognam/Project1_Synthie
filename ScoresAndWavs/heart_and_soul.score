@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score bpm="150" beatspermeasure="6">
+     <instrument instrument="Organ">
+          <note measure="1" beat="1" duration="6" note="C3" dynamic ="0.5" chorusWet="1.0" chorusDry="0.0"/>
+		  <note measure="1" beat="3" duration="1" note="C4" dynamic ="1.0" chorusWet="1.0" chorusDry="0.0"/>
+		  <note measure="1" beat="4" duration="2" note="E4" dynamic ="1.0" chorusWet="0.9" chorusDry="0.1"/>
+		  <note measure="1" beat="6" duration="1" note="G4" dynamic ="1.0" chorusWet="0.9" chorusDry="0.1"/>
+		  
+		  <note measure="2" beat="1" duration="6" note="A2" dynamic ="0.5" chorusWet="0.8" chorusDry="0.2"/>
+		  <note measure="2" beat="3" duration="1" note="A3" dynamic ="1.0" chorusWet="0.8" chorusDry="0.2"/>
+		  <note measure="2" beat="4" duration="2" note="C4" dynamic ="1.0" chorusWet="0.7" chorusDry="0.3"/>
+		  <note measure="2" beat="6" duration="1" note="E4" dynamic ="1.0" chorusWet="0.7" chorusDry="0.3"/>
+		  
+		  <note measure="3" beat="1" duration="6" note="F2" dynamic ="0.5" chorusWet="0.6" chorusDry="0.4"/>
+		  <note measure="3" beat="3" duration="1" note="F3" dynamic ="1.0" chorusWet="0.6" chorusDry="0.4"/>
+		  <note measure="3" beat="4" duration="2" note="A3" dynamic ="1.0" chorusWet="0.5" chorusDry="0.5"/>
+		  <note measure="3" beat="6" duration="1" note="C4" dynamic ="1.0" chorusWet="0.5" chorusDry="0.5"/>
+		  
+		  <note measure="4" beat="1" duration="3" note="G2" dynamic ="0.5" chorusWet="0.3" chorusDry="0.7"/>
+		  <note measure="4" beat="3" duration="0.5" note="G3" dynamic ="1.0" chorusWet="0.3" chorusDry="0.7"/>
+		  <note measure="4" beat="4" duration="1" note="B3" dynamic ="1.0" chorusWet="0.1" chorusDry="0.9"/>
+		  <note measure="4" beat="6" duration="0.5" note="D4" dynamic ="1.0" chorusWet="0.1" chorusDry="0.9"/>
+		  
+		<!-- SECOND LOOP -->
+		  <note measure="5" beat="1" duration="6" note="C3" dynamic ="0.5" flangeWet="1.0" flangeDry="0.0"/>
+		  <note measure="5" beat="3" duration="1" note="C4" dynamic ="1.0" flangeWet="1.0" flangeDry="0.0"/>
+		  <note measure="5" beat="4" duration="2" note="E4" dynamic ="1.0" flangeWet="0.9" flangeDry="0.1"/>
+		  <note measure="5" beat="6" duration="1" note="G4" dynamic ="1.0" flangeWet="0.9" flangeDry="0.1"/>
+		  
+		  <note measure="6" beat="1" duration="6" note="A2" dynamic ="0.5" flangeWet="0.8" flangeDry="0.2"/>
+		  <note measure="6" beat="3" duration="1" note="A3" dynamic ="1.0" flangeWet="0.8" flangeDry="0.2"/>
+		  <note measure="6" beat="4" duration="2" note="C4" dynamic ="1.0" flangeWet="0.7" flangeDry="0.3"/>
+		  <note measure="6" beat="6" duration="1" note="E4" dynamic ="1.0" flangeWet="0.7" flangeDry="0.3"/>
+		  
+		  <note measure="7" beat="1" duration="6" note="F2" dynamic ="0.5" flangeWet="0.6" flangeDry="0.4"/>
+		  <note measure="7" beat="3" duration="1" note="F3" dynamic ="1.0" flangeWet="0.6" flangeDry="0.4"/>
+		  <note measure="7" beat="4" duration="2" note="A3" dynamic ="1.0" flangeWet="0.5" flangeDry="0.5"/>
+		  <note measure="7" beat="6" duration="1" note="C4" dynamic ="1.0" flangeWet="0.5" flangeDry="0.5"/>
+		  
+		  <note measure="8" beat="1" duration="6" note="G2" dynamic ="0.5" flangeWet="0.3" flangeDry="0.7"/>
+		  <note measure="8" beat="3" duration="1" note="G3" dynamic ="1.0" flangeWet="0.3" flangeDry="0.7"/>
+		  <note measure="8" beat="4" duration="2" note="B3" dynamic ="1.0" flangeWet="0.1" flangeDry="0.9"/>
+		  <note measure="8" beat="6" duration="1" note="D4" dynamic ="1.0" flangeWet="0.1" flangeDry="0.9"/>
+		  
+	 </instrument>
+	 
+	 <instrument instrument="Piano">
+		<!-- THIRD LOOP -->
+		  <note measure="9" beat="1" duration="6" note="C3" dynamic ="0.01" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="9" beat="3" duration="1" note="C4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="9" beat="4" duration="2" note="E4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="9" beat="6" duration="1" note="G4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  
+		  <note measure="10" beat="1" duration="6" note="A2" dynamic ="0.01" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="10" beat="3" duration="1" note="A3" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="10" beat="4" duration="2" note="C4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="10" beat="6" duration="1" note="E4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  
+		  <note measure="11" beat="1" duration="6" note="F2" dynamic ="0.01" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="11" beat="3" duration="1" note="F3" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="11" beat="4" duration="2" note="A3" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="11" beat="6" duration="1" note="C4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  
+		  <note measure="12" beat="1" duration="6" note="G2" dynamic ="0.01" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="12" beat="3" duration="1" note="G3" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="12" beat="4" duration="2" note="B3" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  <note measure="12" beat="6" duration="1" note="D4" dynamic ="1.0" compressWet="1.0" compressDry="0.0"/>
+		  
+		<!-- FOURTH LOOP -->
+		  <note measure="13" beat="1" duration="6" note="C3" dynamic ="0.01" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="13" beat="3" duration="1" note="C4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="13" beat="4" duration="2" note="E4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="13" beat="6" duration="1" note="G4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  
+		  <note measure="14" beat="1" duration="6" note="A2" dynamic ="0.01" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="14" beat="3" duration="1" note="A3" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="14" beat="4" duration="2" note="C4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="14" beat="6" duration="1" note="E4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  
+		  <note measure="15" beat="1" duration="6" note="F2" dynamic ="0.01" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="15" beat="3" duration="1" note="F3" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="15" beat="4" duration="2" note="A3" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="15" beat="6" duration="1" note="C4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  
+		  <note measure="16" beat="1" duration="6" note="G2" dynamic ="0.01" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="16" beat="3" duration="1" note="G3" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="16" beat="4" duration="2" note="B3" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  <note measure="16" beat="6" duration="1" note="D4" dynamic ="1.0" gateWet="1.0" gateDry="0.0"/>
+		  
+		  <!-- FIFTH LOOP -->
+		  <note measure="17" beat="1" duration="6" note="C3" dynamic ="0.5"/>
+		  <note measure="17" beat="3" duration="1" note="C4" dynamic ="1.0"/>
+		  <note measure="17" beat="4" duration="2" note="E4" dynamic ="1.0"/>
+		  <note measure="17" beat="6" duration="1" note="G4" dynamic ="1.0"/>
+		  
+		  <note measure="18" beat="1" duration="6" note="A2" dynamic ="0.5"/>
+		  <note measure="18" beat="3" duration="1" note="A3" dynamic ="1.0"/>
+		  <note measure="18" beat="4" duration="2" note="C4" dynamic ="1.0"/>
+		  <note measure="18" beat="6" duration="1" note="E4" dynamic ="1.0"/>
+		  
+		  <note measure="19" beat="1" duration="6" note="F2" dynamic ="0.5"/>
+		  <note measure="19" beat="3" duration="1" note="F3" dynamic ="1.0"/>
+		  <note measure="19" beat="4" duration="2" note="A3" dynamic ="1.0"/>
+		  <note measure="19" beat="6" duration="1" note="C4" dynamic ="1.0"/>
+		  
+		  <note measure="20" beat="1" duration="6" note="G2" dynamic ="0.5"/>
+		  <note measure="20" beat="3" duration="1" note="G3" dynamic ="1.0"/>
+		  <note measure="20" beat="4" duration="2" note="B3" dynamic ="1.0"/>
+		  <note measure="20" beat="6" duration="1" note="D4" dynamic ="1.0"/>
+		  
+		  <!-- SIXTH LOOP -->
+		  <note measure="21" beat="1" duration="6" note="C3" dynamic ="0.5"/>
+		  <note measure="21" beat="3" duration="1" note="C4" dynamic ="1.0"/>
+		  <note measure="21" beat="4" duration="2" note="E4" dynamic ="1.0"/>
+		  <note measure="21" beat="6" duration="1" note="G4" dynamic ="1.0"/>
+		  
+		  <note measure="22" beat="1" duration="6" note="A2" dynamic ="0.5"/>
+		  <note measure="22" beat="3" duration="1" note="A3" dynamic ="1.0"/>
+		  <note measure="22" beat="4" duration="2" note="C4" dynamic ="1.0"/>
+		  <note measure="22" beat="6" duration="1" note="E4" dynamic ="1.0"/>
+		  
+		  <note measure="23" beat="1" duration="6" note="F2" dynamic ="0.5"/>
+		  <note measure="23" beat="3" duration="1" note="F3" dynamic ="1.0"/>
+		  <note measure="23" beat="4" duration="2" note="A3" dynamic ="1.0"/>
+		  <note measure="23" beat="6" duration="1" note="C4" dynamic ="1.0"/>
+		  
+		  <note measure="24" beat="1" duration="6" note="G2" dynamic ="0.5"/>
+		  <note measure="24" beat="3" duration="1" note="G3" dynamic ="1.0"/>
+		  <note measure="24" beat="4" duration="2" note="B3" dynamic ="1.0"/>
+		  <note measure="24" beat="6" duration="1" note="D4" dynamic ="1.0"/>
+     
+	 
+		  <!-- MELODY -->
+		  <note measure="9" beat="1" duration="3" note="C5" dynamic ="1.0"/>
+		  <note measure="9" beat="4" duration="3" note="C5" dynamic ="1.0"/>
+		  
+		  <note measure="10" beat="1" duration="8" note="C5" dynamic ="1.0"/>
+		  
+		  <note measure="11" beat="3" duration="1" note="C5" dynamic ="1.0"/>
+		  <note measure="11" beat="4" duration="2" note="B4" dynamic ="1.0"/>
+		  <note measure="11" beat="6" duration="1" note="A4" dynamic ="1.0"/>
+		  
+		  <note measure="12" beat="1" duration="2" note="B4" dynamic ="1.0"/>
+		  <note measure="12" beat="3" duration="1" note="C5" dynamic ="1.0"/>
+		  <note measure="12" beat="4" duration="3" note="D5" dynamic ="1.0"/>
+		  
+		  <note measure="13" beat="1" duration="3" note="E5" dynamic ="1.0"/>
+		  <note measure="13" beat="4" duration="3" note="E5" dynamic ="1.0"/>
+		  
+		  <note measure="14" beat="1" duration="8" note="E5" dynamic ="1.0"/>
+		  
+		  <note measure="15" beat="3" duration="1" note="E5" dynamic ="1.0"/>
+		  <note measure="15" beat="4" duration="2" note="D5" dynamic ="1.0"/>
+		  <note measure="15" beat="6" duration="1" note="C5" dynamic ="1.0"/>
+		  
+		  <note measure="16" beat="1" duration="2" note="D5" dynamic ="1.0"/>
+		  <note measure="16" beat="3" duration="1" note="E5" dynamic ="1.0"/>
+		  <note measure="16" beat="4" duration="3" note="F5" dynamic ="1.0"/>
+		  
+		  <note measure="17" beat="1" duration="6" note="G5" dynamic ="1.0"/>
+		  
+		  <note measure="18" beat="1" duration="8" note="C5" dynamic ="1.0"/>
+		  
+		  <note measure="19" beat="3" duration="1" note="A5" dynamic ="1.0"/>
+		  <note measure="19" beat="4" duration="2" note="G5" dynamic ="1.0"/>
+		  <note measure="19" beat="6" duration="1" note="F5" dynamic ="1.0"/>
+		  
+		  <note measure="20" beat="1" duration="3" note="E5" dynamic ="1.0"/>
+		  <note measure="20" beat="4" duration="3" note="D5" dynamic ="1.0"/>
+		  
+		  <note measure="21" beat="1" duration="3" note="C5" dynamic ="1.0"/>
+		  <note measure="21" beat="4" duration="2" note="C5" dynamic ="1.0"/>
+		  <note measure="21" beat="6" duration="1" note="B4" dynamic ="1.0"/>
+		  
+		  <note measure="22" beat="1" duration="5" note="A4" dynamic ="1.0"/>
+		  <note measure="22" beat="6" duration="1" note="G4" dynamic ="1.0"/>
+		  
+		  <note measure="23" beat="1" duration="3" note="F4" dynamic ="1.0"/>
+		  <note measure="23" beat="4" duration="2" note="F4" dynamic ="1.0"/>
+		  <note measure="23" beat="6" duration="1" note="G4" dynamic ="1.0"/>
+		  
+		  <note measure="24" beat="1" duration="3" note="A4" dynamic ="1.0"/>
+		  <note measure="24" beat="4" duration="3" note="B4" dynamic ="1.0"/>
+		  
+		  <note measure="25" beat="1" duration="6" note="C5" dynamic ="1.0"/>
+	 </instrument>
+	 <instrument instrument="Drum">
+		<note measure="1" beat="1.0" note="C1"  pitch="4" />
+		<note measure="1" beat="2.0" note="C4"  pitch="2" />
+		<note measure="1" beat="3.0" note="C1"  pitch="4" />
+		<note measure="1" beat="3.5" note="C4"  pitch="4" />
+		<note measure="1" beat="4.0" note="C1"  pitch="3" />
+
+		<note measure="2" beat="1.0" note="D1"  />
+		<note measure="2" beat="1.5" note="D2"  />
+		<note measure="2" beat="2.0" note="D3"  />
+		<note measure="2" beat="2.5" note="D4"  />
+		<note measure="2" beat="3.0" note="A1"  />
+		<note measure="2" beat="3.5" note="A2"  />
+		<note measure="2" beat="4.0" note="A3"  />
+		<note measure="2" beat="4.5" note="A4"  />
+
+		<note measure="3" beat="1.0" note="B3"  />
+		<note measure="3" beat="1.5" note="B3"  />
+		<note measure="3" beat="2.0" note="C4"/>
+		<note measure="3" beat="3.0" note="B3"  />
+		<note measure="3" beat="3.5" note="B3"  />
+		<note measure="3" beat="4.0" note="C4"/>
+
+		<note measure="4" beat="1.2" note="S2" />
+		<note measure="4" beat="2.0" note="S4" />
+		<note measure="4" beat="2.3" note="S2" />
+		<note measure="4" beat="3.0" note="S4" pitch="2" />
+		<note measure="4" beat="3.2" note="S1" />
+		<note measure="4" beat="3.5" note="S3" />
+		<note measure="4" beat="4.2" note="S3" />
+		<note measure="4" beat="4.4" note="S2" />
+		<note measure="4" beat="4.65" note="S4" />
+
+		<note measure="5" beat="1.0" note="B1" />
+		<note measure="5" beat="2.0" note="B1" pitch="2"/>
+		<note measure="5" beat="3.0" note="B2" />
+
+		<note measure="6" beat="1.0" note="C2" />
+		<note measure="6" beat="1.75" note="C3" />
+		<note measure="6" beat="2.5" note="B3"  />
+		<note measure="6" beat="3.5" note="B3"  />
+		<note measure="6" beat="4.5" note="A4"  />
+
+		<note measure="7" beat="1.0" note="B3"  />
+		<note measure="7" beat="1.5" note="B3"  />
+		<note measure="7" beat="3.0" note="B3"  pitch="2" />
+		<note measure="7" beat="3.5" note="B3"  />
+		<note measure="7" beat="4.5" note="C2"  />
+	</instrument>
+	 
+</score>

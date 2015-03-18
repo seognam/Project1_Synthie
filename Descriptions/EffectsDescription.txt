@@ -1,0 +1,33 @@
+Effects
+By: Josh Johnson
+
+The effects change the output from all of the instruments in the synthesizer.
+
+Effects score options:
+gateWet
+gateDry
+compressWet
+compressDry
+flangeWet
+flangeDry
+chorusWet
+chorusDry
+
+For a given note from another instrument given as follows:
+< note measure="1" beat="1" duration="1" note="B4" dynamic ="1.0"/>
+
+The flange effect would be implemented as follows:
+< note measure="1" beat="1" duration="1" note="B4" dynamic ="1.0" flangeWet="1.0" flangeDry="0.0"/>
+
+Each option is used with a decimal value typically ranging from 0.0 to 1.0. The value can exceed 1.0, which would result in a gain of greater than 1.
+
+If no specification is made for any effect, it is given the default value of xDry = 1, xWet = 0, which causes no effect to be applied.
+
+Implementation details:
+I created a class for each effect (Gate, Compress, Flange, and Chorus). If more time was available, these would have been refactored and would include a base class for the Effects. Also, Flange and Chorus would have been made into a single class or at least have their own base class, since their implementation is nearly identical.
+
+The implementation for Chorus and Flange were discussed in preparation for the exam; these use a sine wave to vary the selection location of sounds recently generated.
+
+The Gate and Compress effects simply do calculations on the current value of the sound generated, whether limiting or increasing the sound, depending on the effect.
+
+For integrating the effects into the system, each instrument was allocated an instance of each effect. This was done so that effects could be individually applied to meet the requirement for Controllable effects. This allows for dynamic and fully selectable effects sends.
