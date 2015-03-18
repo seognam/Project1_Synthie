@@ -31,10 +31,10 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseOfMfc>Dynamic</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -131,7 +131,7 @@
     <ClCompile Include="audio\DirSound.cpp" />
     <ClCompile Include="audio\DirSoundSource.cpp" />
     <ClCompile Include="audio\DirSoundStream.cpp" />
-	<ClCompile Include="Chorus.cpp" />
+    <ClCompile Include="Chorus.cpp" />
     <ClCompile Include="Compress.cpp" />
     <ClCompile Include="Flange.cpp" />
     <ClCompile Include="Gate.cpp" />
@@ -175,7 +175,7 @@
     <ClInclude Include="audio\DirSound.h" />
     <ClInclude Include="audio\DirSoundSource.h" />
     <ClInclude Include="audio\DirSoundStream.h" />
-	<ClInclude Include="Chorus.h" />
+    <ClInclude Include="Chorus.h" />
     <ClInclude Include="Compress.h" />
     <ClInclude Include="Flange.h" />
     <ClInclude Include="Gate.h" />
