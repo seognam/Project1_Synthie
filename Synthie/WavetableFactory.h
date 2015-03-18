@@ -1,18 +1,18 @@
-#include "Note.h"
-#include "WavetableInstrument.h"
-
 #pragma once
+#include "WavetableInstrument.h"
+#include "audio/DirSoundSource.h"
+#include <vector>
+
 class CWavetableFactory
 {
 public:
-	CWavetableFactory();
-	virtual ~CWavetableFactory();
+	CWavetableFactory(void);
+	~CWavetableFactory(void);
 
 	void SetNote(CNote *note);
-
-	CWavetableInstrument* CreateInstrument();
+	CWavetableInstrument *CreateInstrument();
+	bool LoadFile(const char *filename);
 
 private:
-	double m_amps[4];
-
+	std::vector<short> m_wave;
 };

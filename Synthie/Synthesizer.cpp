@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "Synthesizer.h"
+#include "WavetableFactory.h"
 #include "Instrument.h"
 #include "ToneInstrument.h"
 #include "WavetableInstrument.h"
@@ -19,7 +20,12 @@ CSynthesizer::CSynthesizer()
 	m_samplePeriod = 1 / m_sampleRate;
 	m_bpm = 120;            
 	m_beatspermeasure = 4;
-	m_secperbeat = 0.5;     
+	m_secperbeat = 0.5;    
+	m_wavetablefactory.LoadFile("drumriff.wav");
+	m_wavetablefactory.LoadFile("g_tdd_120_05.wav");
+	m_wavetablefactory.LoadFile("g_tdd_120_22.wav");
+	m_wavetablefactory.LoadFile("g_tdd_120_30.wav");
+	m_wavetablefactory.LoadFile("g_tdd_120_01.wav");
 }
 
 
@@ -105,6 +111,11 @@ bool CSynthesizer::Generate(double * frame)
 		else if (note->Instrument() == L"Piano"){
 			m_pianofactory.SetNote(note);
 			instrument = m_pianofactory.CreatePiano();
+		}
+		else if (note->Instrument() == L"Wave")
+		{
+			m_wavetablefactory.SetNote(note);
+			instrument = m_wavetablefactory.CreateInstrument();
 		}
 
 		instrument->SetEffectWeights(note);
