@@ -58,12 +58,14 @@ private:
 	std::vector<CNote> m_notes;
 	COrganInstrumentFactory m_organfactory;
 	CDrumFactory m_druminstfactory;
+	CWavetableFactory m_wavetablefactory;
+
 public:
 	void Start();
 	bool Generate(double*);
 private:
 	double m_time;
-	CWavetableFactory m_wavetablefactory;
+
 
 	CPianoFactory m_pianofactory;
 public:

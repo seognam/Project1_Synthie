@@ -166,8 +166,10 @@
     <ClCompile Include="ToneInstrument.cpp" />
     <ClCompile Include="WavePlayer.cpp" />
     <ClCompile Include="Wavetable.cpp" />
+    <ClCompile Include="WavetableEnvelope.cpp" />
     <ClCompile Include="WavetableFactory.cpp" />
     <ClCompile Include="WavetableInstrument.cpp" />
+    <ClCompile Include="WavetablePlayer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AR.h" />
@@ -209,8 +211,10 @@
     <ClInclude Include="ToneInstrument.h" />
     <ClInclude Include="WavePlayer.h" />
     <ClInclude Include="Wavetable.h" />
+    <ClInclude Include="WavetableEnvelope.h" />
     <ClInclude Include="WavetableFactory.h" />
     <ClInclude Include="WavetableInstrument.h" />
+    <ClInclude Include="WavetablePlayer.h" />
     <ClInclude Include="xmlhelp.h" />
   </ItemGroup>
   <ItemGroup>

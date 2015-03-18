@@ -120,7 +120,7 @@
     <ClCompile Include="PianoNotes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-	<ClCompile Include="Gate.cpp">
+    <ClCompile Include="Gate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Compress.cpp">
@@ -130,6 +130,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Chorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WavetablePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WavetableEnvelope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -248,7 +254,7 @@
     <ClInclude Include="PianoNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-	<ClInclude Include="Gate.h">
+    <ClInclude Include="Gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Compress.h">
@@ -258,6 +264,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Chorus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WavetablePlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WavetableEnvelope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
