@@ -22,10 +22,6 @@ CSynthesizer::CSynthesizer()
 	m_beatspermeasure = 4;
 	m_secperbeat = 0.5;    
 	m_wavetablefactory.LoadFile("drumriff.wav");
-	m_wavetablefactory.LoadFile("g_tdd_120_05.wav");
-	m_wavetablefactory.LoadFile("g_tdd_120_22.wav");
-	m_wavetablefactory.LoadFile("g_tdd_120_30.wav");
-	m_wavetablefactory.LoadFile("g_tdd_120_01.wav");
 }
 
 
